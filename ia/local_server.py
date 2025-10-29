@@ -10,6 +10,5 @@ def mauristica(number: float) -> float:
     return number / 2 + 10
 
 
-if __name__ == "__main__":
-    print("Inicia server MCP", file=sys.stderr, flush=True)
-    mcp.run()
+print("Inicia server MCP", file=sys.stderr, flush=True)
+mcp.run()
