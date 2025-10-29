@@ -130,5 +130,4 @@ async def main():
     logger.info(f"Segundos transcurridos: {end_time - start_time:.2f}")
     
 
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio.run(main())
